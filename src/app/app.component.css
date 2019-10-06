@@ -1,0 +1,8 @@
+h1{
+	color:blue
+}
+#container {height: 100%; width: 100%; background: green}
+#menu, #about {display: inline-block; *display: inline; zoom: 1;
+	vertical-align: top;}
+#menu {width: 25%; background: yellow}
+#about {width:75%; background: blue}
