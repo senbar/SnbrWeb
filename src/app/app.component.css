@@ -1,8 +1,27 @@
-h1{
-	color:blue
+.content{
+	height: 100%;
+	width: 70%;
+	display: inline-block;
+	padding-top: 60px;
+	padding-right: 60px;
+	vertical-align: top;
 }
-#container {height: 100%; width: 100%; background: green}
-#menu, #about {display: inline-block; *display: inline; zoom: 1;
-	vertical-align: top;}
-#menu {width: 25%; background: yellow}
-#about {width:75%; background: blue}
+.sidenav {
+	display: inline-block;
+	width: 25%;
+	height: 100%;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+}
+.sidenav a {
+	outline: none;
+	text-decoration: none;
+	padding: 8px 8px 8px 32px;
+	color: #818181;
+	display: block;
+}
+.sidenav a:hover {
+	color: lightgray;
+	transition: 0.2s;
+}	
